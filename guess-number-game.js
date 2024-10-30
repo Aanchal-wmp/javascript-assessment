@@ -1,4 +1,3 @@
-
 //getting the button by its classname
 const btn = document.querySelector(".btn");
 btn.addEventListener("click", buttonClicked);
@@ -14,8 +13,7 @@ function buttonClicked() {
   // check if the input is a valid number or not and alert the user
   if (isNaN(userGuess)) {
     alert("Invalid input. Please enter a number :) ");
-  }
-   else {
+  } else {
     if (userGuess === randomNumber) {
       alert("Good Work!! Your Guess was aboslutely correct!"); // Display this message if matched
     } else {
