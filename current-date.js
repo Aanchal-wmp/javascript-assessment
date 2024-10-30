@@ -9,4 +9,4 @@ function getCurrentDate() {
 
 //calling the fucntion getCurrentdate and console logging it
 
-console.log("Current Date in 'format day-month-year': ", getCurrentDate());
+console.log("Current Date in format 'day-month-year': ", getCurrentDate());

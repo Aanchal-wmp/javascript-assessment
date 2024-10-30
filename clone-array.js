@@ -3,7 +3,9 @@
 function array_Clone(arr) {
 
     if (Array.isArray(arr)) {
-        return [...arr]; //using spread..it makes shallow copy
+        return [...arr];              //method 1 - using spread operator
+        // return Array.from(arr);    method 2 - using Array.from
+        // return arr.slice(0);       method 3- using slice
     }
     
    else {

@@ -18,4 +18,4 @@ function objLength(obj) {
 }
 
 //calling the function objLength and console logging the output 
-console.log("Length of object keys: ",objLength(user));
+console.log("Length of object: ",objLength(user));
